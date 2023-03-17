@@ -25,17 +25,12 @@ create table if not exists genres_executors (
 	executor_id integer references executors(executor_id)
 );
 
-create table if not exists albums_executors (
+create table if not exists executors_albums (
 	executor_id integer references executors(executor_id),
 	album_id integer references albums(album_id)
 );
 
 create table if not exists tracks (
-	executor_id integer references executors(executor_id),
-	album_id integer references albums(album_id)
-);
-
-create table if not exists collections_tracks (
 	track_id SERIAL primary key,
 	name varchar(50) not null,
 	lenght interval,
