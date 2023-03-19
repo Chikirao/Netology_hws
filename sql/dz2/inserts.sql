@@ -23,7 +23,7 @@ values
 ('KINO', 1993),
 ('Super Hits', 2077),
 ('sounds of nature', 2007),
-('forever', 2020),
+('forever', 2018),
 ('Artem', 2021),
 ('XVI rap', 1567),
 ('Revolver', 1969);
@@ -39,7 +39,7 @@ values
 ('Smells Like Teen Spirit', '5m01s', 3),
 ('Comfortably Numb', '6m24s', 4),
 ('Billie Jean', '4m54s', 5),
-('Like a Rolling Stone', '6m13s', 4),
+('Like my Rolling Stone', '6m13s', 4),
 ('Purple Haze', '3m02s', 8),
 ('Hey Jude', '7m11s', 7),
 ('The Times They Are A-Changin', '3m16s', 4),
@@ -55,14 +55,12 @@ VALUES
 ('Greatest Hits', 1995),
 ('Classic Rock', 1980),
 ('Top 40', 2022),
-('Hip-Hop Essentials', 2010),
+('Hip-Hop Essentials', 2019),
 ('Chillout Lounge', 2005),
 ('Indie Anthems', 2015),
 ('Country Classics', 1970);
-
-select * from collections;
   
-insert into albums_executors 
+insert into albums_executors
 values
 (1,1),
 (2,2),
