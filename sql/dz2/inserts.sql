@@ -1,3 +1,5 @@
+-- основа
+
 insert into executors (name)
 values
 ('Michael Jackson'),
@@ -102,3 +104,24 @@ values
 (2,5),
 (5,6),
 (4,8);
+
+-- insert запросы для работы селектов 3 домашки
+
+insert into albums (name, year) 
+values('anthems', 2019);
+
+insert into albums_executors 
+values
+(1, 10),
+(3, 9),
+(5, 2);
+
+update tracks
+set album_id = 9 where track_id = 12;
+
+insert into albums (name, year) 
+values('freack show', 2020);
+
+insert into tracks (name, lenght, album_id)
+values
+('bad song(', '2m43s', 3);
